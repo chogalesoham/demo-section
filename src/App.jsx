@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import ChoosePlan from "./pages/Choose-a-Plan";
 import Payment from "./pages/payment";
 import Board from "./pages/Board";
-// import SingleComponent from "./pages/Board";
-import SingleComponent from "./pages/BoardDemo";
+import SingleComponent from "./pages/Board";
+// import SingleComponent from "./pages/BoardDemo";
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const App = () => {
         <Route path="/chooseplan" element={<ChoosePlan />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/payment" element={<Payment />} />
-        {/* <Route path="/board" element={<SingleComponent />} /> */}
-        <Route path="/boardnew" element={<SingleComponent />} />
+        <Route path="/board" element={<SingleComponent />} />
+        {/* <Route path="/boardnew" element={<SingleComponent />} /> */}
       </Routes>
     </BrowserRouter>
   );
