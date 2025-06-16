@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const App = () => {
   const [scale, setScale] = React.useState(1);
@@ -20,30 +20,27 @@ const App = () => {
 
     calculateScale();
 
-    window.addEventListener('resize', calculateScale);
+    window.addEventListener("resize", calculateScale);
 
     return () => {
-      window.removeEventListener('resize', calculateScale);
+      window.removeEventListener("resize", calculateScale);
     };
   }, []);
 
   return (
-
     <div className="min-h-screen flex items-center justify-center overflow-hidden font-inter">
-     
       <div
         ref={contentRef}
         style={{
           width: `${designWidth}px`,
           height: `${designHeight}px`,
-          position: 'absolute',
-          left: '50%',
-          top: '50%',
+          position: "absolute",
+          left: "50%",
+          top: "50%",
           transform: `translate(-50%, -50%) scale(${scale})`,
         }}
         className="relative"
       >
-   
         <div>
           <div>
             <img
@@ -146,4 +143,3 @@ const App = () => {
 };
 
 export default App;
-
