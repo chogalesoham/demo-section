@@ -5,7 +5,6 @@ const SingleComponent = () => {
     <>
       <div className=" w-screen h-auto relative bg-white origin-top-left">
         <div>
-          x
           <div>
             <img
               src="/images/img_group_112.png"

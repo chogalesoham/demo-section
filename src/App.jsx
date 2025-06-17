@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ChoosePlan from "./pages/Choose-a-Plan";
 import Payment from "./pages/payment";
-import Board from "./pages/Board";
-import SingleComponent from "./pages/Board";
+import BoardPage from "./pages/board-page";
+import Pathway from "./pages/Pathway";
 // import SingleComponent from "./pages/BoardDemo";
 
 const App = () => {
@@ -15,7 +15,9 @@ const App = () => {
         <Route path="/chooseplan" element={<ChoosePlan />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/payment" element={<Payment />} />
-        <Route path="/board" element={<SingleComponent />} />
+        <Route path="/board" element={<BoardPage />} />
+        <Route path="/pathway" element={<Pathway />} />
+
         {/* <Route path="/boardnew" element={<SingleComponent />} /> */}
       </Routes>
     </BrowserRouter>
