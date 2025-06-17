@@ -3,7 +3,11 @@ import React from "react";
 const Pathway2 = () => {
   return (
     <div className="relative w-[658px] h-[650px] mx-auto mt-6">
-      <img src="/images/startbutton3.svg" alt="Pathway" />
+
+      <div className="absolute top-[433] left[200] ">
+        <img src="/images/startbutton3.svg" alt="Pathway" />
+      </div>
+      
       <div className=" absolute top-[55px] left-[70px]">
         <img src="/images/questionBtn.svg" alt="" />
       </div>
