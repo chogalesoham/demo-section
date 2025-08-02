@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/board" element={<BoardPage />} />
         <Route path="/pathway" element={<Pathway />} />
         <Route path="/pathway2" element={<Pathway2 />} />
+        <Route path="/hello" element={<Pathway2 />} />
 
         {/* <Route path="/boardnew" element={<SingleComponent />} /> */}
       </Routes>
